@@ -52,7 +52,7 @@ fun AppDrawer(
 
     AppDrawerBody(closeDrawerAction)
 
-    //AppDrawerFooter(modifier)
+    AppDrawerFooter(modifier)
   }
 }
 
@@ -84,7 +84,7 @@ private fun AppDrawerHeader() {
       text = stringResource(R.string.default_username),
       color = MaterialTheme.colors.primaryVariant
     )
-    //ProfileInfo()
+    ProfileInfo()
     Divider(
       color = MaterialTheme.colors.onSurface.copy(alpha = .2f),
       modifier = Modifier.padding(
